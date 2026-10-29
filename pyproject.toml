@@ -1,0 +1,32 @@
+[project]
+name = "fashion"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "ShreyaasAI", email = "shreyas285laptop@gmail.com" }
+]
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "fastapi>=0.162.0",
+    "openai>=3.29.0",
+    "pandas>=3.0.6",
+    "pillow>=12.3.0",
+    "psycopg[binary]>=3.3.6",
+    "psycopg2>=2.8",
+    "pytest>=9.1.1",
+    "python-multipart>=0.0.32",
+    "requests>=2.34.2",
+    "scikit-learn>=1.9.0",
+    "streamlit>=1.65.0",
+    "uvicorn>=0.54.0",
+    "mlflow>=3.16.0",
+    
+]
+
+[project.scripts]
+fashion = "fashion:main"
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"

@@ -1,0 +1,13 @@
+fastapi
+scikit-learn
+uvicorn
+python-multipart
+openai
+streamlit
+pandas
+requests
+pytest
+pillow
+mlflow
+mlflow.sklearn
+dotenv
